@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+<rect width="800" height="520" rx="28" fill="#fff5cf"/>
+<circle cx="660" cy="105" r="105" fill="white" opacity=".55"/>
+<circle cx="125" cy="430" r="130" fill="white" opacity=".42"/>
+<text x="400" y="270" text-anchor="middle" font-size="170" font-family="Apple Color Emoji,Segoe UI Emoji,Noto Color Emoji,sans-serif">🧀</text>
+<rect x="40" y="390" width="720" height="82" rx="20" fill="white" opacity=".92"/>
+<text x="400" y="442" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#18221b">Cheese</text>
+<circle cx="735" cy="42" r="18" fill="#d4a72c"/>
+</svg>

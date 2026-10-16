@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>PurePick | Cart</title><link rel="stylesheet" href="css/style.css"></head>
+<body><header class="navbar"><a class="brand" href="index.html"><span class="brand-mark">P</span><span>Pure<span class="green">Pick</span></span></a><nav><a href="products.html">Products</a><a href="login.html" data-account-link>Login</a><a href="orders.html">Orders</a><a href="cart.html">🛒 Cart <b id="cartCount">0</b></a></nav></header>
+<main class="section"><div class="section-head"><div><span class="eyebrow">YOUR BAG</span><h1>Shopping cart</h1></div></div>
+<div class="cart-layout"><div id="cartItems"></div><aside class="summary"><h2>Order summary</h2><div class="summary-row"><span>Subtotal</span><b>₹<span id="subtotal">0</span></b></div><hr><div class="summary-row total"><span>Total</span><b>₹<span id="total">0</span></b></div><h3 class="checkout-heading">Delivery address</h3>
+<label>Full name</label><input id="addressName" placeholder="Your full name">
+<label>Mobile number</label><input id="addressPhone" type="tel" placeholder="10-digit mobile number">
+<label>House / Flat / Street</label><input id="addressLine" placeholder="House no., street, area">
+<div class="address-two"><div><label>City</label><input id="addressCity" placeholder="City"></div><div><label>PIN code</label><input id="addressPin" inputmode="numeric" placeholder="6-digit PIN"></div></div>
+<label>State</label><input id="addressState" value="Andhra Pradesh">
+<label>Landmark (optional)</label><input id="addressLandmark" placeholder="Nearby landmark">
+<label>Delivery date</label><input type="date" id="deliveryDate"><label>Delivery slot</label><select id="deliveryTime"><option>9 AM - 12 PM</option><option>12 PM - 3 PM</option><option>3 PM - 6 PM</option><option>6 PM - 9 PM</option></select><button class="primary-btn full" onclick="placeOrder()">Place order</button></aside></div></main><script src="js/common.js"></script><script src="js/cart.js"></script></body></html>

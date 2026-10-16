@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>PurePick | Products</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<div class="top-strip">Fresh groceries • Easy delivery • Secure shopping</div>
+<header class="navbar">
+<a class="brand" href="index.html"><span class="brand-mark">P</span><span>Pure<span class="green">Pick</span></span></a>
+<div class="search wide"><input id="searchInput" placeholder="Search products..."><button>🔍</button></div>
+<nav><a href="login.html" data-account-link>Login</a><a href="orders.html">Orders</a><a href="cart.html">🛒 Cart <b id="cartCount">0</b></a></nav>
+</header>
+<div class="category-nav"><a href="products.html">All</a><a href="products.html?cat=Fruits">Fruits</a><a href="products.html?cat=Vegetables">Vegetables</a><a href="products.html?cat=Dairy">Dairy</a><a href="products.html?cat=Bakery">Bakery</a><a href="products.html?cat=Snacks">Snacks</a><a href="products.html?cat=Beverages">Beverages</a><a href="products.html?cat=Staples">Staples</a><a href="products.html?cat=Personal%20Care">Personal Care</a><a href="products.html?cat=Household">Household</a></div>
+<main class="section products-page">
+<div class="section-head"><div><span class="eyebrow">PUREPICK STORE</span><h1>All groceries</h1><p class="muted">Choose from fresh everyday essentials.</p></div><select id="categoryFilter"><option value="all">All categories</option><option>Fruits</option><option>Vegetables</option><option>Dairy</option><option>Bakery</option><option>Snacks</option><option>Beverages</option><option>Staples</option><option>Personal Care</option><option>Household</option></select></div>
+<div id="productGrid" class="product-grid large"></div></main>
+<script src="js/products.js"></script><script src="js/common.js"></script></body></html>

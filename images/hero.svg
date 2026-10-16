@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#e9f8ed"/><stop offset="1" stop-color="#c9efd3"/></linearGradient></defs>
+<rect width="900" height="520" rx="40" fill="url(#g)"/>
+<circle cx="670" cy="130" r="95" fill="#fff" opacity=".65"/>
+<circle cx="180" cy="410" r="120" fill="#fff" opacity=".55"/>
+<g transform="translate(160 95)">
+<ellipse cx="310" cy="320" rx="250" ry="35" fill="#9bd3a7" opacity=".55"/>
+<path d="M150 220h330l-30 115H180z" fill="#fff" stroke="#2f8f46" stroke-width="7"/>
+<path d="M170 220l55-100h180l55 100" fill="#f7fff8" stroke="#2f8f46" stroke-width="7"/>
+<circle cx="260" cy="178" r="48" fill="#e84f4f"/><path d="M258 130q-10-38 24-55" fill="none" stroke="#2f8f46" stroke-width="10"/>
+<ellipse cx="205" cy="160" rx="40" ry="18" fill="#f2a33b" transform="rotate(-20 205 160)"/>
+<ellipse cx="360" cy="160" rx="42" ry="22" fill="#6bc36f" transform="rotate(25 360 160)"/>
+<path d="M310 132q35-45 72-3" fill="none" stroke="#2f8f46" stroke-width="14"/>
+<text x="315" y="285" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#287b3e">PUREPICK</text>
+</g></svg>
